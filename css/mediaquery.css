@@ -1,0 +1,369 @@
+
+@media all and (max-width:575px) {
+    .mycard{
+        width: 100% !important;
+       }
+        
+   
+     .cardfolio{
+        width: 100% !important;
+    } 
+    
+    .cardbuttons{
+        top: 61% !important;
+        left: 38%;
+    }
+    
+    .myim{
+        width: 30% !important;
+    }
+    .imgdol{
+        width: 100% !important;
+    }
+    .after::after{
+        left: 43% !important;
+    }
+    .nav-item:hover .item1{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item2{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item3{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item4{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item5{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item6{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item7{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item1::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item2::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item3::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item4::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item5::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item7::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item6::before{
+        width: 0 !important;
+    }
+    body:has(.home:target) .item1::before{
+        width: 0% !important;
+    }
+    body:has(.home:target) .item1{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.aboutsection:target) .item2::before{
+        width: 0% !important;
+    }
+    body:has(.aboutsection:target) .item2{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.services:target) .item3::before{
+        width: 0% !important;
+    }
+    body:has(.services:target) .item3{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.portfolio:target) .item4::before{
+        width: 0% !important;
+    }
+    body:has(.portfolio:target) .item4{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.blog:target) .item5::before{
+        width: 0% !important;
+    }
+    body:has(.blog:target) .item5{
+        color: rgb(3, 88, 184);
+
+    }
+    body:has(.contact:target) .item7::before{
+        width: 0% !important;
+    }
+    body:has(.contact:target) .item7{
+        color: rgb(3, 88, 184);
+
+    }
+}
+@media all and (max-width:412px){
+    .cardbuttons{
+        top: 53% !important;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px){
+    .mycard{
+        width: 100% !important;
+       }
+      
+    .card-positioning{
+        display: flex !important;
+        justify-content: center !important;
+    }
+     .cardfolio{
+        width: 100% !important;
+    }
+   
+    .myim{
+        width: 30% !important;
+    }
+    .blogposts{
+        width: 100% !important;
+    }
+    .cardbuttons{
+        top: 62% !important;
+    left: 44% !important;
+    width: 79px !important;
+    }
+    .after::after{
+        left: 43% !important;
+    }
+    .nav-item:hover .item1{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item2{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item3{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item4{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item5{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item6{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item7{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item1::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item2::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item3::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item4::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item5::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item7::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item6::before{
+        width: 0 !important;
+    }
+    body:has(.home:target) .item1::before{
+        width: 0% !important;
+    }
+    body:has(.home:target) .item1{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.aboutsection:target) .item2::before{
+        width: 0% !important;
+    }
+    body:has(.aboutsection:target) .item2{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.services:target) .item3::before{
+        width: 0% !important;
+    }
+    body:has(.services:target) .item3{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.portfolio:target) .item4::before{
+        width: 0% !important;
+    }
+    body:has(.portfolio:target) .item4{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.blog:target) .item5::before{
+        width: 0% !important;
+    }
+    body:has(.blog:target) .item5{
+        color: rgb(3, 88, 184);
+
+    }
+    body:has(.contact:target) .item7::before{
+        width: 0% !important;
+    }
+    body:has(.contact:target) .item7{
+        color: rgb(3, 88, 184);
+
+    }
+    
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+   .mycard{
+    width: 100% !important;
+   }
+   
+    .cardfolio{
+        width: 18rem !important;
+    }
+    .widthofinput{
+        width: 18rem !important;
+    }
+    .textareawidth{
+        width: 18rem !important;
+    }
+    .cardgroups{
+        width: 100% !important;
+    }
+    
+    .imgdol{
+        width: 100% !important;
+    }
+    .cardbuttons{
+        top: 69% !important;
+    left: 44% !important;
+    width: 82px !important;
+    }
+    .nav-item:hover .item1{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item2{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item3{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item4{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item5{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item6{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item7{
+        color: rgb(3, 88, 184);
+    }
+    .nav-item:hover .item1::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item2::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item3::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item4::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item5::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item7::before{
+        width: 0 !important;
+
+    }
+    .nav-item:hover .item6::before{
+        width: 0 !important;
+    }
+    body:has(.home:target) .item1::before{
+        width: 0% !important;
+    }
+    body:has(.home:target) .item1{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.aboutsection:target) .item2::before{
+        width: 0% !important;
+    }
+    body:has(.aboutsection:target) .item2{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.services:target) .item3::before{
+        width: 0% !important;
+    }
+    body:has(.services:target) .item3{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.portfolio:target) .item4::before{
+        width: 0% !important;
+    }
+    body:has(.portfolio:target) .item4{
+        color: rgb(3, 88, 184);
+    }
+    
+    body:has(.blog:target) .item5::before{
+        width: 0% !important;
+    }
+    body:has(.blog:target) .item5{
+        color: rgb(3, 88, 184);
+
+    }
+    body:has(.contact:target) .item7::before{
+        width: 0% !important;
+    }
+    body:has(.contact:target) .item7{
+        color: rgb(3, 88, 184);
+
+    }    
+}
+@media all and (min-width:992px) and (max-width:1199px) {
+    .cardbuttons{
+        top: 42% !important;
+    left: 36% !important;
+    width: 82px !important;
+    }
+}
+
+@media all and (min-width:1200px) and (max-width:1201) {
+  
+}

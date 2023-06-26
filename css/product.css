@@ -1,0 +1,159 @@
+section{
+    padding: 80px 0;
+}
+
+/* Nav Section */
+
+
+nav{
+    font-family: system-ui;
+    font-weight: 600;
+}
+.item1::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item2::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item3::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item4::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item5::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item6::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: -10%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+.item7::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 20%;
+    position: absolute;
+    transition: all .5s;
+    background-color: #fff;
+}
+
+.nav-item:hover .item1::before{
+    width: 3%;
+}
+.nav-item:hover .item2::before{
+    width: 3%;
+}
+.nav-item:hover .item3::before{
+    width: 3%;
+}
+.nav-item:hover .item4::before{
+    width: 3%;
+}
+.nav-item:hover .item5::before{
+    width: 3%;
+}
+.nav-item:hover .item6::before{
+    width: 85%;
+}
+.nav-item:hover .item7::before{
+    width: 3%;
+}
+
+body:has(.home:target) .item1::before{
+    width: 3%;
+}
+
+body:has(.aboutsection:target) .item2::before{
+    width: 3%;
+}
+
+body:has(.services:target) .item3::before{
+    width: 5%;
+}
+
+body:has(.portfolio:target) .item4::before{
+    width: 3%;
+}
+
+body:has(.blog:target) .item5::before{
+    width: 3%;
+}
+
+
+body:has(.contact:target) .item7::before{
+    width: 5%;
+}
+
+/* header section */
+header{
+    background-image: url(../img/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 55vh;
+}
+.laywork{
+    background-color: rgba(75, 142, 225,0.8);
+    width: 100%;
+    min-height: 55vh;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(75, 142, 225);
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background-color: rgb(75, 142, 225);
+
+}
+.carousel-indicators{
+    bottom: -44px;
+    z-index: 0;
+}
+.line{
+    height: 2px;
+    width: 90%;
+    right: 6%;
+    top: 21%;
+    position: absolute;
+    background-color: silver;
+}
